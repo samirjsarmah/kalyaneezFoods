@@ -330,7 +330,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .section-subtitle::after {
-  content: url('../images/separator.svg');
+  content: url('separator.svg');
   display: block;
   width: 100px;
   margin-inline: auto;
@@ -925,7 +925,7 @@ body.nav-active { overflow: hidden; }
   transform: translateX(-50%);
   width: 140px;
   height: 100%;
-  background-image: url('../images/img-pattern.svg');
+  background-image: url('pattern.svg');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -996,13 +996,13 @@ body.nav-active { overflow: hidden; }
   left: 50%;
   transform: translateX(-50%);
   width: 140px;
-  background-image: url('../images/img-pattern.svg');
+  background-image: url('pattern.svg');
   background-repeat: repeat;
 }
 
 .about .abs-img-2::before {
   inset: 0;
-  background-image: url('../images/badge-2-bg.png');
+  background-image: url('badge-2-bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   animation: rotate360 15s linear infinite;
